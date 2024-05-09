@@ -19,6 +19,7 @@ public class Food {
 
     private String name;
 
+
     public static Food from(String name) {
         return new Food(null, name);
     }
