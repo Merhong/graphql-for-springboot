@@ -1,0 +1,6 @@
+query getFood($name: String!) {
+    getFood(name: $name) {
+        id
+        name
+    }
+}
